@@ -5,24 +5,40 @@
     <title>Seek Coding</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-  </body>
-  <div class="full-page">
-    <div class="navbar">
-      <div>
-        <a href="index.html">Seek Coding</a>
+    <div class="full-page">
+        <div class="navbar">
+          <div>
+            <a href="index.html">Seek Coding</a>
+            <!-- logo image place here -->
+          </div>
+          <nav>
+            <ul id="MenuItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button class="Loginbtn" onclick="document.getElementById('login-form').style.display='block'"style="width:auto;">Login</button></a>
+                </li>
+    
+            </ul>
+          </nav>
+        <!-- navigation bar is finished  -->
       </div>
-      <nav>
-        <ul id="MenuItems">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><button class="Loginbtn" onclick="document.getElementById('login-form').style.display='block'"style="width:auto;">Login</button></a>
-            </li>
+      <!-- login form -->
+      <div id="login-form" class="login-page">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" onclick="login()" class="toggle-btn">Log In</button>
+                <button type="button" onclick="register()" class="toggle-btn">Register</button>
+            </div>
+            
+        </div>
+      </div>
 
-        </ul>
-      </nav>
-    </div>
-  </div>
+      
+      </div>
+    
+  </body>
+
 </html>
