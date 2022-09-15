@@ -3,7 +3,7 @@
 ### Project Description
 A log in sign up form using HTML and CSS. This form allows users to register and login.
 ### License
-This app is under an MIT License, which allowa full use to edit and contribute to this code. See the 'LICENSE' file for more information.
+This app is under an MIT License, which allows full use to edit and contribute to this code. See the 'LICENSE' file for more information.
 
 MIT License
 
